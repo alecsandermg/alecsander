@@ -1,0 +1,143 @@
+/*criação de variaveis globais e definição de margin e padding geral da pagina*/
+
+*
+{
+    --cor1:#3787E5;
+    --cor2:#2D6FBB;
+    --cor3:#3583DD;
+    --cor4:#255B99;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*Definindo estilo do body, fonte e degradê de fundo*/
+body{
+    margin: 0;
+    background-image: linear-gradient(to bottom,var(--cor1),VAR(--cor3));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Definindo estilo do cabeçalho e barra de navegação*/
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+}
+header h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 0px black;
+    color: white;
+}
+nav {
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+nav ul li a{
+    color: white;
+    text-shadow: 2px 2px 0px#255B99;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+/*Definindo estilos do conteúdo principal*/
+main{
+    max-width: 805px;
+    min-width: 300px;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 4px 4px rgb(66, 66, 66);
+}
+main h2{
+    background-image: linear-gradient(to right, var(--cor1), white);
+    padding: 0px 8px;
+    margin: 10px;
+
+}
+main ul{
+    list-style: none;
+}
+main h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+}
+main p {
+    margin: 15px;
+    text-align: justify;
+}
+
+/*Alterando estilos das listas das páginas do site*/
+.lista1{
+    padding-left: 30px;
+    list-style-type: '\2B50';
+}
+.lista2{
+    padding-left: 30px;
+    list-style-type: '\2705';
+}
+.lista3{
+    padding-left: 10px;
+}
+.lista3 li a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+/*Definindo estilo do rodapé*/
+footer{
+    padding: 6px;
+    text-align: center;
+    color: white;
+    text-shadow: none;
+}
+
+/*Colocando efeitos na barra de navegação*/
+nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+    text-shadow: none;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/*Alterando estilos das listas das páginas do site*/
+.lista4 {
+    list-style: disc;
+    margin-left: 25px;
+    padding-top: 25px;    
+}
+.lista4 ul{
+    list-style: square;
+    margin: 20px;
+}
+.lista5{
+    list-style: disc;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.lista5 li{
+    padding: 05px;
+}
+.lista5 li a{
+    text-decoration: none;
+    color: #3787E5;
+
+}
+
+/*Definindo posicionamento do formulario*/
+form
+{
+    margin-left: 25px;
+    padding-top: 25px;
+}
